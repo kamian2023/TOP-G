@@ -57,7 +57,7 @@ with st.container():
             st.subheader("TATE's theme song")
             st.write(
             """
-            Listen to this masterpiece, you will feel like you are a god!
+            Listen to this masterpiece, you will feel like you are a beast!
             Its called tourner dans la vide.
             """
             )
