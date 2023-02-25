@@ -63,7 +63,7 @@ with st.container():
             )
             st.markdown("[Listen Here...](https://youtu.be/F3wpq-i150c)")
 
-# ----CONTACT ----
+# ---- CONTACT ----
 with st.container():
     st.write("---")
     st.header("Get in touch with FARHAN!")
@@ -84,3 +84,7 @@ with left_column:
     st.markdown(contact_form, unsafe_allow_html=true)
     with right_column:
         st.empty()
+
+# ---- GOOGLE ADSENSE ----
+<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2863019331434652"
+     crossorigin="anonymous"></script></head>
