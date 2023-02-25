@@ -84,7 +84,3 @@ with left_column:
     st.markdown(contact_form, unsafe_allow_html=true)
     with right_column:
         st.empty()
-
-# ---- GOOGLE ADSENSE ----
-<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2863019331434652"
-     crossorigin="anonymous"></script></head>
