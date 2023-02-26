@@ -14,6 +14,7 @@ def load_lottieur1(url):
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieur1("https://assets6.lottiefiles.com/packages/lf20_j6fywzxe.json")
 
+# ---- GOOGLE ADSENSE ----
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("About TATE :muscle:")
@@ -67,20 +68,3 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("Get in touch with FARHAN!")
-    st.write("##")
-
-    # Documention: https://formsubmit.co/ !!! GU KHAO !!!
-    contact_form = """
-    <form action="https://formsubmit.co/akhtermahfuza2022@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-     <input type="text" name="name" placeholder="your name" required>
-     <input type="email" name="email" placeholder="your email" required>
-     <textarea name="message" placeholder="your message here" required></textarea>
-     <button type="submit">Send</button>
-</form>
-"""
-left_column, right_column = st.columns(2)
-with left_column:
-    st.markdown(contact_form, unsafe_allow_html=true)
-    with right_column:
-        st.empty()
