@@ -1,6 +1,7 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
+import html
 
 # Find more tate stuff in your ass
 st.set_page_config(page_title="free TATE", page_icon=":muscle:", layout="wide")
@@ -15,12 +16,13 @@ def load_lottieur1(url):
 lottie_coding = load_lottieur1("https://assets6.lottiefiles.com/packages/lf20_j6fywzxe.json")
 
 # ---- GOOGLE ADSENSE ----
+
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("About TATE :muscle:")
     st.title("The Top G")
     st.write("He is the masculinity reviver, who is Top G")
-    st.write("[Learn More >](https://youtube.com/shorts/cTMK4-XI93k?feature=share)")
+    st.write("[Learn More >](https://youtu.be/dQw4w9WgXcQ)")
 # ---- WHY TATE IS innocent ----
 with st.container():
     st.write("---")
@@ -35,6 +37,8 @@ with st.container():
         -They have no proof.
 
         -Its the matrix.
+
+        -Fariha apu is cool.
 
         -Avro stinks AF
 
