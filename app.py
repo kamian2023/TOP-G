@@ -1,3 +1,5 @@
+import json
+
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
@@ -6,17 +8,7 @@ import html
 # Find more tate stuff in your ass
 st.set_page_config(page_title="free TATE", page_icon=":muscle:", layout="wide")
 
-def load_lottieur1(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-        return r.json()
-
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottieur1("https://assets6.lottiefiles.com/packages/lf20_j6fywzxe.json")
-
-# ---- GOOGLE ADSENSE ----
-
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("About TATE :muscle:")
@@ -48,8 +40,6 @@ with st.container():
         """
         )
         st.write("[YouTube channel >](https://www.youtube.com/user/MrBeast6000)")
-with right_column:
-    st_lottie(lottie_coding, height=300, key="coding")
 
 # ---- PROJECTS ----
 with st.container():
@@ -72,3 +62,11 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("Get in touch with FARHAN!")
+
+    # ---- GOOGLE ADSENSE ----
+components.html(
+"""
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2863019331434652"
+     crossorigin="anonymous"></script>
+     """
+)
